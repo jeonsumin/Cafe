@@ -16,6 +16,7 @@ struct HomeHeaderView: View {
                     반갑습니다.
                     """)
                     .font(.largeTitle)
+                    .fixedSize(horizontal: false, vertical: true)
                     .frame(maxWidth: .infinity,alignment: .leading)
                 Button(action: {},
                        label: {

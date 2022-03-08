@@ -100,7 +100,6 @@
 			children = (
 				DE1DC65927D7966D005FC3AF /* Tab */,
 				DE6BB73B27D7A03100907C79 /* Home */,
-				DE1DC65B27D79695005FC3AF /* MenuSuggestionSectionView.swift */,
 				DE1DC65F27D79B0B005FC3AF /* EventsSectionView.swift */,
 			);
 			path = Scenes;
@@ -111,6 +110,7 @@
 			children = (
 				DE1DC66527D79FC4005FC3AF /* HomeView.swift */,
 				DE1DC66327D79EDB005FC3AF /* HomeHeaderView.swift */,
+				DE1DC65B27D79695005FC3AF /* MenuSuggestionSectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
