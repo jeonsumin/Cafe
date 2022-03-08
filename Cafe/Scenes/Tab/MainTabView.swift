@@ -10,7 +10,7 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView{
-            Text("Home")
+            HomeView()
                 .tabItem {
                     Tab.home.tabTextItem
                     Tab.home.imageItem
@@ -24,11 +24,11 @@ struct MainTabView: View {
     }
 }
 
-//struct MainTabView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MainTabView()
-//    }
-//}
+struct MainTabView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainTabView()
+    }
+}
 
 /**
  * HStack
@@ -60,30 +60,30 @@ struct MainTabView: View {
 /**
  * LazyHStack
  */
-struct SampleLazyHStack: View {
-    var body: some View {
-        ScrollView(.horizontal){
-            LazyHStack {
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-                Text("HStack 알아보기")
-            }
-        }
-        
-    }
-}
-struct SampleLazyHStack_Previews: PreviewProvider {
-    static var previews: some View {
-        SampleLazyHStack()
-    }
-}
+//struct SampleLazyHStack: View {
+//    var body: some View {
+//        ScrollView(.horizontal){
+//            LazyHStack {
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//                Text("HStack 알아보기")
+//            }
+//        }
+//
+//    }
+//}
+//struct SampleLazyHStack_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SampleLazyHStack()
+//    }
+//}
 
 /**
  * List
