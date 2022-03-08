@@ -14,6 +14,8 @@
 		DE1DC65827D78220005FC3AF /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DC65727D78220005FC3AF /* Tab.swift */; };
 		DE1DC65C27D79695005FC3AF /* MenuSuggestionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DC65B27D79695005FC3AF /* MenuSuggestionSectionView.swift */; };
 		DE1DC65E27D7970B005FC3AF /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DC65D27D7970B005FC3AF /* CoffeeMenu.swift */; };
+		DE1DC66027D79B0B005FC3AF /* EventsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DC65F27D79B0B005FC3AF /* EventsSectionView.swift */; };
+		DE1DC66227D79B3A005FC3AF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DC66127D79B3A005FC3AF /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		DE1DC65727D78220005FC3AF /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		DE1DC65B27D79695005FC3AF /* MenuSuggestionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSuggestionSectionView.swift; sourceTree = "<group>"; };
 		DE1DC65D27D7970B005FC3AF /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
+		DE1DC65F27D79B0B005FC3AF /* EventsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSectionView.swift; sourceTree = "<group>"; };
+		DE1DC66127D79B3A005FC3AF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				DE1DC65A27D79676005FC3AF /* Scenes */,
 				DE1DC64D27D77F21005FC3AF /* Assets.xcassets */,
 				DE1DC64F27D77F21005FC3AF /* Preview Content */,
+				DE1DC66127D79B3A005FC3AF /* Event.swift */,
 			);
 			path = Cafe;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			children = (
 				DE1DC65927D7966D005FC3AF /* Tab */,
 				DE1DC65B27D79695005FC3AF /* MenuSuggestionSectionView.swift */,
+				DE1DC65F27D79B0B005FC3AF /* EventsSectionView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -165,7 +171,9 @@
 				DE1DC65827D78220005FC3AF /* Tab.swift in Sources */,
 				DE1DC64C27D77F20005FC3AF /* MainTabView.swift in Sources */,
 				DE1DC65E27D7970B005FC3AF /* CoffeeMenu.swift in Sources */,
+				DE1DC66027D79B0B005FC3AF /* EventsSectionView.swift in Sources */,
 				DE1DC64A27D77F20005FC3AF /* CafeApp.swift in Sources */,
+				DE1DC66227D79B3A005FC3AF /* Event.swift in Sources */,
 				DE1DC65C27D79695005FC3AF /* MenuSuggestionSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
