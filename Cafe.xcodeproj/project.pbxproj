@@ -19,6 +19,9 @@
 		DE1DC66427D79EDB005FC3AF /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DC66327D79EDB005FC3AF /* HomeHeaderView.swift */; };
 		DE1DC66627D79FC4005FC3AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DC66527D79FC4005FC3AF /* HomeView.swift */; };
 		DE6BB73D27D7A34900907C79 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6BB73C27D7A34900907C79 /* User.swift */; };
+		DEEEB7AF27D8D54200E6D8F2 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEB7AE27D8D54200E6D8F2 /* OtherView.swift */; };
+		DEEEB7B227D8D72000E6D8F2 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEB7B127D8D72000E6D8F2 /* SettingMenu.swift */; };
+		DEEEB7B427D8DBE100E6D8F2 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEB7B327D8DBE100E6D8F2 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		DE1DC66327D79EDB005FC3AF /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		DE1DC66527D79FC4005FC3AF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DE6BB73C27D7A34900907C79 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DEEEB7AE27D8D54200E6D8F2 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		DEEEB7B127D8D72000E6D8F2 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
+		DEEEB7B327D8DBE100E6D8F2 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 			children = (
 				DE1DC65927D7966D005FC3AF /* Tab */,
 				DE6BB73B27D7A03100907C79 /* Home */,
+				DEEEB7B027D8D6B100E6D8F2 /* Other */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -113,6 +120,16 @@
 				DE1DC65F27D79B0B005FC3AF /* EventsSectionView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		DEEEB7B027D8D6B100E6D8F2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DEEEB7AE27D8D54200E6D8F2 /* OtherView.swift */,
+				DEEEB7B127D8D72000E6D8F2 /* SettingMenu.swift */,
+				DEEEB7B327D8DBE100E6D8F2 /* SettingView.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +207,14 @@
 				DE1DC64C27D77F20005FC3AF /* MainTabView.swift in Sources */,
 				DE1DC65E27D7970B005FC3AF /* CoffeeMenu.swift in Sources */,
 				DE1DC66027D79B0B005FC3AF /* EventsSectionView.swift in Sources */,
+				DEEEB7AF27D8D54200E6D8F2 /* OtherView.swift in Sources */,
 				DE1DC64A27D77F20005FC3AF /* CafeApp.swift in Sources */,
 				DE1DC66227D79B3A005FC3AF /* Event.swift in Sources */,
+				DEEEB7B427D8DBE100E6D8F2 /* SettingView.swift in Sources */,
 				DE1DC65C27D79695005FC3AF /* MenuSuggestionSectionView.swift in Sources */,
 				DE6BB73D27D7A34900907C79 /* User.swift in Sources */,
 				DE1DC66427D79EDB005FC3AF /* HomeHeaderView.swift in Sources */,
+				DEEEB7B227D8D72000E6D8F2 /* SettingMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
