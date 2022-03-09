@@ -7,4 +7,12 @@
 	- 초기화 시점에 모든 Cell을 생성하지 않음.
 	- UITableView와 비슷함. 보여질 필요가 있는 Cell(View)만 생성. 
 
+### @State 
+> String, Int, Bool 과 같은 간단한 값을 저장하고 View의 현재 상태를 표시하기 위해 사용. 
+
+### @Binding 
+> ChildView에서 ParenView의 값을 표시하고, 능동적으로 값이 변화할때 사용 
+> ChildView에서 사용 
+
+### @ObservedObject 
  	
