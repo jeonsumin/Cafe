@@ -126,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				DEEEB7AE27D8D54200E6D8F2 /* OtherView.swift */,
-				DEEEB7B127D8D72000E6D8F2 /* SettingMenu.swift */,
 				DEEEB7B327D8DBE100E6D8F2 /* SettingView.swift */,
+				DEEEB7B127D8D72000E6D8F2 /* SettingMenu.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
